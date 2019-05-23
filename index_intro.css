@@ -1,0 +1,29 @@
+.*{
+  text-align: center;
+}
+.margin{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.first{
+  text-align: center;
+}
+
+.intro{
+
+  text-color: red;
+  background-color: rgba(0,0,0,0.25);
+}
+
+.second{
+  text-align: center;
+}
+
+.service{
+  background-color: rgba(0,0,0,0.25);
+}
+
+.list{
+  list-style: none;
+}
