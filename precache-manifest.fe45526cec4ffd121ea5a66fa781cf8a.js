@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "42ec19f13328909b5b65ac4bec900b93",
+    "revision": "fd4af663890623a4c74128f01f3bef9c",
     "url": "/index.html"
   },
   {
-    "revision": "8e79c7637a8cdeb395c0",
+    "revision": "ddc4f3f32e2f5858ec25",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "a33c826a97794a373e15",
+    "revision": "8f41d13252308356b0df",
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "6316123b30b5ea95ad85",
-    "url": "/static/css/main.6ae692e9.chunk.css"
+    "revision": "465271720e5b30d2a5b2",
+    "url": "/static/css/main.fb54ade3.chunk.css"
   },
   {
-    "revision": "a7eda2ab8de4b228fd8a",
-    "url": "/static/js/2.a7432406.chunk.js"
+    "revision": "6de044a43e9ebb08e2b9",
+    "url": "/static/js/2.43602e5f.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.a7432406.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.43602e5f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8e79c7637a8cdeb395c0",
-    "url": "/static/js/3.41e88318.chunk.js"
+    "revision": "ddc4f3f32e2f5858ec25",
+    "url": "/static/js/3.2fb8474c.chunk.js"
   },
   {
-    "revision": "a33c826a97794a373e15",
-    "url": "/static/js/4.d2a276bc.chunk.js"
+    "revision": "8f41d13252308356b0df",
+    "url": "/static/js/4.1b5326b7.chunk.js"
   },
   {
-    "revision": "6316123b30b5ea95ad85",
-    "url": "/static/js/main.e7e1dd75.chunk.js"
+    "revision": "465271720e5b30d2a5b2",
+    "url": "/static/js/main.0d2afb50.chunk.js"
   },
   {
-    "revision": "bee065e7a68e7e27535f",
-    "url": "/static/js/runtime-main.8399b5a1.js"
+    "revision": "41ec3aa338d4d2c04524",
+    "url": "/static/js/runtime-main.e54b3bea.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -46,10 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
-  },
-  {
-    "revision": "c59720d63dc3595a12e1c7e641a1bfa5",
-    "url": "/static/media/airbnbLogo.c59720d6.png"
   },
   {
     "revision": "0763a64f065ad52870748fdb5abd2383",
@@ -90,10 +86,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "829ad0a1deef4d7295adfecdf12df2be",
     "url": "/static/media/nextuLogo.829ad0a1.webp"
-  },
-  {
-    "revision": "4b2938b9f5ea2f1ddbd45dccaff628bc",
-    "url": "/static/media/quoraLogo.4b2938b9.png"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
