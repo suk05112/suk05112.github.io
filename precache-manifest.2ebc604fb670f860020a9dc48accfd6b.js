@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bbc9cb591e4c83f7396721ff901f915d",
+    "revision": "9b081fc460888f0aeddcbf415527114e",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "7fe962510331e7234883",
+    "revision": "d96db0265839650cda7a",
     "url": "/static/css/main.dbf48e40.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.63936d04.chunk.js"
   },
   {
-    "revision": "7fe962510331e7234883",
-    "url": "/static/js/main.0955b4cc.chunk.js"
+    "revision": "d96db0265839650cda7a",
+    "url": "/static/js/main.50bce4a0.chunk.js"
   },
   {
     "revision": "6d0e7a44a2e726fb0841",
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/googleAssistantLogo.e79c6392.webp"
   },
   {
-    "revision": "35ef5e915631be2c31ccdff55b53db29",
-    "url": "/static/media/harvardLogo.35ef5e91.png"
+    "revision": "0c09ab4f84e0de1246c7f4efb6ee74b6",
+    "url": "/static/media/hanbat.0c09ab4f.png"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
