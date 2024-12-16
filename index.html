@@ -14,10 +14,15 @@
       id="layer"
       style="display:block; position:absolute; overflow:hidden; z-index:1; -webkit-overflow-scrolling:touch; "
     ></div>
+    <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 <!--     <script src="https://spi.maps.daum.net/imap/map_js_init/postcode.v2.js"></script> -->
-    <script src="https://dapi.kakao.com/v2/maps/sdk.js?autoload=false&appkey=" +
+    var jsUrl =
+      "https://dapi.kakao.com/v2/maps/sdk.js?autoload=false&appkey=" +
       "16dd251b86287783606ea600a98c7131" +
-      "&libraries=services"></script>
+      "&libraries=services";
+    var geocodeJS = document.createElement("script");
+    geocodeJS.src = jsUrl;
+    document.body.appendChild(geocodeJS);
 
     <script>
       window.addEventListener("message", onReceivedPostMessage, false);
