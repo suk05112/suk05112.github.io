@@ -14,7 +14,11 @@
       id="layer"
       style="display:block; position:absolute; overflow:hidden; z-index:1; -webkit-overflow-scrolling:touch; "
     ></div>
-    <script src="https://spi.maps.daum.net/imap/map_js_init/postcode.v2.js"></script>
+<!--     <script src="https://spi.maps.daum.net/imap/map_js_init/postcode.v2.js"></script> -->
+    <script src="https://dapi.kakao.com/v2/maps/sdk.js?autoload=false&appkey=" +
+      "16dd251b86287783606ea600a98c7131" +
+      "&libraries=services"></script>
+
     <script>
       window.addEventListener("message", onReceivedPostMessage, false);
 
