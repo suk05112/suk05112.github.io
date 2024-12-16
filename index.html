@@ -55,36 +55,36 @@
             //   zonecode: data.zonecode,
             // };
 
-            var postData = {
-              postCode: data.zonecode, // 국가기초구역번호
-              address: data.address || '', // 기본 주소
-              addressEng: data.addressEnglish || '', // 기본 영문 주소
-              roadAddress: data.roadAddress || '', // 도로명 주소
-              roadAddressEng: data.roadAddressEnglish || '', // 영문 도로명 주소
-              jibunAddress: data.jibunAddress || data.autoJibunAddress || '', // 지번 주소
-              jibunAddressEng: data.jibunAddressEnglish || data.autoJibunAddressEnglish || '', // 영문 지번 주소
-              buildingCode: data.buildingCode || '', // 건물관리번호
-              buildingName: data.buildingName || '', // 건물명
-              apartment: data.apartment || 'N', // 공동주택 여부
-              addressType: data.addressType || '', // 기본 주소 타입: R(도로명), J(지번)
-              sido: data.sido || '', // 도/시 이름
-              sidoEng: data.sidoEnglish || '', // 영문 도/시 이름
-              sigungu: data.sigungu || '', // 시/군/구 이름
-              sigunguEng: data.sigunguEnglish || '', // 영문 시/군/구 이름
-              sigunguCode: data.sigunguCode || '', // 시/군/구 코드
-              roadnameCode: data.roadnameCode || '', // 도로명 코드
-              roadname: data.roadname || '', // 도로명
-              roadnameEng: data.roadnameEnglish || '', // 영문 도로명
-              bcode: data.bcode || '', // 법정동/법정리 코드
-              bname: data.bname || '', // 법정동/법정리 이름
-              bnameEng: data.bnameEnglish || '', // 영문 법정동/법정리 이름
-              bname1: data.bname1 || '', // 법정리의 읍/면 이름
-              query: data.query || '', // 검색어
-              userSelectedType: data.userSelectedType || '', // 선택한 주소 타입
-              userLanguageType: data.userLanguageType || '', // 선택한 언어 타입
-              kakaoLatitude: '', // 카카오 위도 (추가 데이터 요청 필요)
-              kakaoLongitude: '', // 카카오 경도 (추가 데이터 요청 필요)
-            };
+            // var postData = {
+            //   postCode: data.zonecode, // 국가기초구역번호
+            //   address: data.address || '', // 기본 주소
+            //   addressEng: data.addressEnglish || '', // 기본 영문 주소
+            //   roadAddress: data.roadAddress || '', // 도로명 주소
+            //   roadAddressEng: data.roadAddressEnglish || '', // 영문 도로명 주소
+            //   jibunAddress: data.jibunAddress || data.autoJibunAddress || '', // 지번 주소
+            //   jibunAddressEng: data.jibunAddressEnglish || data.autoJibunAddressEnglish || '', // 영문 지번 주소
+            //   buildingCode: data.buildingCode || '', // 건물관리번호
+            //   buildingName: data.buildingName || '', // 건물명
+            //   apartment: data.apartment || 'N', // 공동주택 여부
+            //   addressType: data.addressType || '', // 기본 주소 타입: R(도로명), J(지번)
+            //   sido: data.sido || '', // 도/시 이름
+            //   sidoEng: data.sidoEnglish || '', // 영문 도/시 이름
+            //   sigungu: data.sigungu || '', // 시/군/구 이름
+            //   sigunguEng: data.sigunguEnglish || '', // 영문 시/군/구 이름
+            //   sigunguCode: data.sigunguCode || '', // 시/군/구 코드
+            //   roadnameCode: data.roadnameCode || '', // 도로명 코드
+            //   roadname: data.roadname || '', // 도로명
+            //   roadnameEng: data.roadnameEnglish || '', // 영문 도로명
+            //   bcode: data.bcode || '', // 법정동/법정리 코드
+            //   bname: data.bname || '', // 법정동/법정리 이름
+            //   bnameEng: data.bnameEnglish || '', // 영문 법정동/법정리 이름
+            //   bname1: data.bname1 || '', // 법정리의 읍/면 이름
+            //   query: data.query || '', // 검색어
+            //   userSelectedType: data.userSelectedType || '', // 선택한 주소 타입
+            //   userLanguageType: data.userLanguageType || '', // 선택한 언어 타입
+            //   kakaoLatitude: '', // 카카오 위도 (추가 데이터 요청 필요)
+            //   kakaoLongitude: '', // 카카오 경도 (추가 데이터 요청 필요)
+            // };
 
             
             // Flutter WebView로 메시지 전송
