@@ -54,6 +54,16 @@
               jibunAddress: jibunAddress,
               zonecode: data.zonecode,
             };
+            
+            // Flutter WebView로 메시지 전송
+            if (window.onComplete) {
+              // WebMessageListener 방식
+              window.onComplete.postMessage(JSON.stringify(postData));
+            } else if (window.flutter_inappwebview) {
+              // JavaScriptHandler 방식
+              window.flutter_inappwebview.callHandler('onComplete', JSON.stringify(postData));
+            }
+
             window.postMessageToiOS(postData);
           },
           width: "100%",
